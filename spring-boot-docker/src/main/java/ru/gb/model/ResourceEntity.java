@@ -7,7 +7,6 @@ import lombok.Data;
 @Entity
 @Table(name = "resource")
 public class ResourceEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
