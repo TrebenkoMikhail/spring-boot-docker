@@ -8,7 +8,6 @@ import ru.gb.service.ResourceService;
 @RestController
 @RequestMapping("/api")
 public class ResourceController {
-
     @Autowired
     private ResourceService resourceService;
 

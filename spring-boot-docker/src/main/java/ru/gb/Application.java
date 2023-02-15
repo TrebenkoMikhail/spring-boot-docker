@@ -10,7 +10,6 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-
 	// image [postgres] [redis] [java] [python]
 	// [java] -> [OS + JRE + jar]
 	// start image -> [OS container]

@@ -10,7 +10,6 @@ import ru.gb.repository.ResourceRepository;
 @Service
 @RequiredArgsConstructor
 public class ResourceService {
-
     private final ResourceRepository repository;
 
     public ResourceEntity getResource(Long id) {
